@@ -15,6 +15,11 @@
 		E11C3B672245A7C8009F74A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11C3B652245A7C8009F74A0 /* LaunchScreen.storyboard */; };
 		E11C3B722245A7C8009F74A0 /* PhotosCoreData2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C3B712245A7C8009F74A0 /* PhotosCoreData2Tests.swift */; };
 		E11C3B7D2245A7C8009F74A0 /* PhotosCoreData2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C3B7C2245A7C8009F74A0 /* PhotosCoreData2UITests.swift */; };
+		E11C3B902245A804009F74A0 /* PhotoEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C3B8E2245A804009F74A0 /* PhotoEntity+CoreDataClass.swift */; };
+		E11C3B912245A804009F74A0 /* PhotoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C3B8F2245A804009F74A0 /* PhotoEntity+CoreDataProperties.swift */; };
+		E11C3B952245A9A4009F74A0 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C3B922245A9A3009F74A0 /* ContactTableViewCell.swift */; };
+		E11C3B962245A9A4009F74A0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C3B932245A9A3009F74A0 /* ContactViewController.swift */; };
+		E11C3B972245A9A4009F74A0 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C3B942245A9A4009F74A0 /* ContactsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		E11C3B782245A7C8009F74A0 /* PhotosCoreData2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosCoreData2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C3B7C2245A7C8009F74A0 /* PhotosCoreData2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCoreData2UITests.swift; sourceTree = "<group>"; };
 		E11C3B7E2245A7C8009F74A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11C3B8E2245A804009F74A0 /* PhotoEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E11C3B8F2245A804009F74A0 /* PhotoEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E11C3B922245A9A3009F74A0 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		E11C3B932245A9A3009F74A0 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		E11C3B942245A9A4009F74A0 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,14 @@
 		E11C3B582245A7C7009F74A0 /* PhotosCoreData2 */ = {
 			isa = PBXGroup;
 			children = (
+				E11C3B8E2245A804009F74A0 /* PhotoEntity+CoreDataClass.swift */,
+				E11C3B8F2245A804009F74A0 /* PhotoEntity+CoreDataProperties.swift */,
 				E11C3B592245A7C7009F74A0 /* AppDelegate.swift */,
 				E11C3B5B2245A7C7009F74A0 /* ViewController.swift */,
 				E11C3B5D2245A7C7009F74A0 /* Main.storyboard */,
+				E11C3B942245A9A4009F74A0 /* ContactsTableViewController.swift */,
+				E11C3B922245A9A3009F74A0 /* ContactTableViewCell.swift */,
+				E11C3B932245A9A3009F74A0 /* ContactViewController.swift */,
 				E11C3B632245A7C8009F74A0 /* Assets.xcassets */,
 				E11C3B652245A7C8009F74A0 /* LaunchScreen.storyboard */,
 				E11C3B682245A7C8009F74A0 /* Info.plist */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11C3B952245A9A4009F74A0 /* ContactTableViewCell.swift in Sources */,
+				E11C3B962245A9A4009F74A0 /* ContactViewController.swift in Sources */,
+				E11C3B902245A804009F74A0 /* PhotoEntity+CoreDataClass.swift in Sources */,
+				E11C3B912245A804009F74A0 /* PhotoEntity+CoreDataProperties.swift in Sources */,
 				E11C3B5C2245A7C7009F74A0 /* ViewController.swift in Sources */,
 				E11C3B622245A7C7009F74A0 /* PhotosCoreData2.xcdatamodeld in Sources */,
+				E11C3B972245A9A4009F74A0 /* ContactsTableViewController.swift in Sources */,
 				E11C3B5A2245A7C7009F74A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
